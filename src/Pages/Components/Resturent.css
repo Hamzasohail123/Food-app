@@ -1,0 +1,85 @@
+.upperContainer {
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.leftSide {
+    width: 40%;
+    height: 400px;
+}
+.leftSide h1{
+    font-size: 40px;
+    font-family: burlywood;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.rightSide {
+    width: 60%;
+    height: 400px;
+    background-color: rgb(69, 51, 44);
+    position: relative; /* Added for positioning */
+}
+
+/* Style the image to cover the entire rightSide div */
+.rightSide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+    position: absolute; /* Added for positioning */
+
+    border-radius: 10px ; /* Add border radius to the images */
+  }
+  
+
+.containerResturent {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 100px; /* Adjust the height as needed */
+  }
+  
+  .inputSearch {
+    width: 70%; /* Adjust the width as needed */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.2s ease-in-out; /* Add a transition for a smoother effect */
+  }
+  
+  /* Style when the input is focused */
+  .inputSearch:focus {
+    border-color: #007bff; /* Change the border color when focused */
+  }
+  
+/* CSS for Search Buttons */
+.searchButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.searchButton button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.searchButton button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Additional styles for active button (if you want to indicate the active search) */
+.searchButton button.active {
+  background-color: #ff5733; /* Active button background color */
+}
+
+/* Adjust the styles as needed for your design */

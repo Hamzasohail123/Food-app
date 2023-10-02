@@ -1,0 +1,61 @@
+/* FilterSidebar.css (or your preferred CSS file) */
+
+/* Sidebar Search Container */
+
+.sidebar-search {
+  width: 20%; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Search Input */
+.search-input input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Search Options */
+.search-options select,
+.search-options button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+/* Search Button */
+.search-options button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+/* Search Button Hover */
+.search-options button:hover {
+  background-color: #0056b3;
+}
+
+/* Dropdown Styling */
+.search-options select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmz1cYi4Vk08tJMim6EV7npQ7asXXeZNqKts4BS4pnCA&s'); /* Add your custom arrow icon */
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding-right: 30px; /* Adjust based on arrow icon size */
+}
+
+/* Clear default arrow styles for select */
+.search-options select::-ms-expand {
+  display: none;
+}

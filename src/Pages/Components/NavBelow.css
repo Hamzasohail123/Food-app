@@ -1,0 +1,55 @@
+/* NavBelow.css */
+
+.container {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .left {
+    background-color: cornsilk;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: black;
+    text-align: center;
+  }
+  
+  .right {
+    background-color: cornsilk;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.pexels.com/photos/11568799/pexels-photo-11568799.jpeg?auto=compress&cs=tinysrgb&w=400');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .left h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .left p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Apply responsive styles */
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      height: auto;
+    }
+    
+    .left, .right {
+      width: 100%;
+    }
+  }
+  

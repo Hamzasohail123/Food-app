@@ -1,0 +1,241 @@
+
+/* Style the search input */
+/* Style the select dropdown */
+.menu-category-select {
+  width: 30%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 10px;
+  background-color: #fff; /* Background color */
+  color: #333; /* Text color */
+}
+.main{
+  display: flex;
+  flex-direction: column;
+}
+/* Style the options in the dropdown */
+.menu-category-select option {
+  background-color: #fff; /* Background color */
+  color: #333; /* Text color */
+}
+
+/* Adjust the appearance of the select dropdown arrow (optional) */
+.menu-category-select::-ms-expand {
+  display: none; /* Hide default arrow in Internet Explorer */
+}
+
+/* Style the select dropdown when hovered (optional) */
+.menu-category-select:hover {
+  border-color: #007bff; /* Border color on hover */
+}
+
+.menu input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+/* Style the menu category buttons */
+.menu-buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px; /* Add spacing between buttons */
+  margin-bottom: 10px; /* Add spacing below buttons */
+}
+
+/* Hover effect for menu category buttons */
+.menu-buttons button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Style the menu items */
+.menu-item {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+  cursor: pointer;
+  width: 300px;
+}
+
+/* Hover effect for menu items */
+.menu-item:hover {
+  transform: scale(1.05);
+}
+
+/* Add spacing between menu items */
+.menu-item + .menu-item {
+  margin-left: 20px;
+}
+
+/* Style the "Add to Cart" button inside menu items */
+.menu-item .item-add-to-cart {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Hover effect for "Add to Cart" button */
+.menu-item .item-add-to-cart:hover {
+  background-color: #0056b3;
+}
+
+
+.menu {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    cursor: pointer;
+    width: 300px;
+  }
+  
+  .menu-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .item-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .item-details {
+    padding: 16px;
+  }
+  
+  .item-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .item-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .item-price {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .item-category {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .cart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .cart-items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+  
+  .item-name {
+    flex-grow: 1;
+    font-size: 16px;
+  }
+  
+  .item-price {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .cart-total {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .checkout-button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .checkout-button:hover {
+    background-color: #ff4500;
+  }
+  
+  .item-add-to-cart {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+  
+  .item-add-to-cart:hover {
+    background-color: #0056b3; /* Hover background color */
+  }
